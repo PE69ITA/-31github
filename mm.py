@@ -14,6 +14,6 @@ def selection_sort(arr):
         arr[i], arr[min_index] = arr[min_index], arr[i]
 
 # Example usage:
-my_array = [64, 25, 12, 22, 11]
+my_array = [64, 25, 12, 22, 11,12]
 selection_sort(my_array)
 print("Sorted array:", my_array)
