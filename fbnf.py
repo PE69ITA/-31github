@@ -7,7 +7,6 @@ def is_happy_number(n):
 
     return n == 1
 
-# Example usage:
 number = int(input())
 if is_happy_number(number):
     print(f"{number} is a happy number.")
