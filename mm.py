@@ -16,4 +16,4 @@ def selection_sort(arr):
 # Example usage:
 my_array = [64, 25, 12, 22, 11,12]
 selection_sort(my_array)
-print("Sorted array:", my_array)
+print("Sorted arRay:", my_array)
