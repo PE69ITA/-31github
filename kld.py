@@ -49,7 +49,7 @@ def tic_tac_toe():
             print("Ничья!")
             break
 
-        # Переключение текущего игрока
+        # Переключение текущего игрок
         current_player = 'O' if current_player == 'X' else 'X'
 
 if __name__ == "__main__":
