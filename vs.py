@@ -15,7 +15,7 @@ def search_insert(nums, target):
     return low  # Target not found, return the index where it should be inserted.
 
 # Example usage:
-nums = [1, 3, 5, 6]
+nums = [1, 3, 5, 6, 7]
 target = 5
 result = search_insert(nums, target)
 print(result)
