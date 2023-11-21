@@ -23,4 +23,4 @@ result = binary_search(my_list, target_element)
 if result != -1:
     print(f"Element {target_element} found at index {result}")
 else:
-    print(f"Element {target_element} not found in the list")
+    print(f"Element {target_element} not found in the lisT")
