@@ -10,7 +10,7 @@ def binary_search(arr, target):
         elif mid_value < target:
             low = mid + 1  # Target is in the right half
         else:
-            high = mid - 1  # Target is in the left half
+            high = mid - 1  # Tar is in the left half
 
     return -1  # Target not found
 
