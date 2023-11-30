@@ -9,3 +9,4 @@ def isPalindrome(x):
 input_number = 121
 output = isPalindrome(input_number)
 print(output)  # Output: True
+
