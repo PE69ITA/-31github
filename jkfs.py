@@ -28,4 +28,5 @@ grid = [
 
 solution = Solution()
 result = solution.numIslands(grid)
+
 print(result)  # Output: 1
