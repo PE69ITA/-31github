@@ -1,14 +1,14 @@
-def is_happy_number(n):
-    seen = set()
+class Solution(object):
+    def isPalindrome(self, x):
+        if x < 0 or x % 10 == 0:
+            return False
 
-    while n != 1 and n not in seen:
-        seen.add(n)
-        n = sum(int(digit) ** 2 for digit in str(n))
+        half = 0
+        while x > half:
+            half = (half * 10) + (x % 10)
+            x = x // 10
 
-    return n == 1
-#ma
-number = int(input())
-if is_happy_number(number):
-    print(f"{number} is a happy number.")
-else:
-    print(f"{number} is not a happy number.")
+        return True
+    
+sol = Solution()
+print(sol.isPalindrome(231))  # True
