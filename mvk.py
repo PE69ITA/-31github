@@ -33,3 +33,4 @@ my_list = [64, 34, 25, 12, 22, 11, 90]
 merge_sort(my_list)
 
 print("Отсортированный список:", my_list)
+kjb
